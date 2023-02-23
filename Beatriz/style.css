@@ -1,0 +1,163 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+html {
+   position: relative;
+    min-height: 100%;
+}
+
+body {
+font-family: 'Red Hat Display', sans-serif;
+background: #ede7d5;
+margin: -25 0 60px; 
+padding-bottom: 100px;
+
+	}
+	
+		
+#logo{
+
+margin-left: 20%;
+
+}
+
+#paragrafo {
+
+font-family: 'Red Hat Display', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 25px;
+text-align: justify;
+display: flex;
+align-items: center;
+color: black;
+float: right;
+margin-left: 30px;
+}
+
+.img-pg {
+			
+max-width: 80em;
+margin: 0;
+display: flex;
+padding: 2em;
+background: white;
+			
+}
+		
+.container {	
+max-width: 60em;
+margin: 0 auto;
+display: table;
+padding: 2em;
+background: white;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+
+}
+
+.conteudo {
+
+padding: 2em;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+}
+
+
+#p1{
+
+bottom: 30.43%;
+font-family: 'Red Hat Display', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+text-align: justify;
+display: flex;
+align-items: center;
+color: black;
+margin-top: 20px;
+margin-left: 30px;
+margin-right: 20px;
+
+}
+
+.rodape {
+    line-height: 50px;
+    height: 100px;
+    background: white;
+    color: #191818;
+    padding: 28px;
+position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;   
+}
+
+.icones{
+    float: right;
+    display: table;
+}
+
+.icones li {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+
+.navbar{
+	position: relative;
+	top: 0;
+	z-index: 99999;
+	padding:25px 0;
+background: #8cbfaf;
+
+}
+
+.navbar ul.nav{
+	margin-right: 20%;
+	font-color: #ffffff;
+
+}
+
+.navbar ul.nav li.active{
+	background:#f0ffc9;
+	color: white;
+
+}
+.navbar ul.nav li:hover{
+	background:#f0ffc9;
+	color: black;
+
+}
+.navbar ul.nav li a{
+	color: white;
+	font-size: 1em;
+	font-weight: 500;
+}
+.navbar ul.nav li.active a,
+.navbar ul.nav li:hover a{
+	color: black;
+}
+
+
+h1{
+  font-size: 25px;
+  font-weight: 500;
+  padding-top: 30px;
+	
+}
+
+.link {
+
+	color: black;
+
+
+}
+
